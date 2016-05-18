@@ -1,0 +1,54 @@
+{
+  "dependencies": {
+    "vendors.js": {
+      "main": true
+    },
+    "app.js": {
+      "files": [
+        "../build/app.module.js",
+        "../build/**/*.module.js",
+        "../build/**/*.js"
+      ]
+    },
+    "styles.css": {
+      "files": [
+        "styles/styles.scss",
+        "components/**/*.css",
+        "components/**/*.scss"
+      ],
+      "main": true
+    },
+    "html": {
+        "files": [
+            "**/*.html"
+        ]
+    },
+    "javascript": {
+        "files": [
+            "**/*.js"
+        ]
+    },
+    "typescript": {
+        "files": [
+            "**/*.ts"
+        ]
+    },
+    "assets": {
+        "files": [
+            "assets/**/*.*"
+        ]
+    }
+  },
+  "paths": {
+      "dist": "dist/",
+      "source": "src/",
+      "build": "build/",
+      "maps": "maps/",
+      "assets": "assets/",
+      "fonts": "fonts/",
+      "styles": "styles/"
+  },
+  "config": {
+    "devUrl": "http://localhost:8080"
+  }
+}

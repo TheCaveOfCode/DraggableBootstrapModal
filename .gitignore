@@ -1,0 +1,12 @@
+# Build results
+dist/
+build/
+bower_components/
+node_modules/
+typings/
+
+# Windows image file caches
+Thumbs.db
+
+# Mac desktop service store files
+.DS_Store
